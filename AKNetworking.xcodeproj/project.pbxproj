@@ -3,20 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		204F2BEF0083D5BF934B65A9 /* Pods_AbdulNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6177B5AB5BF84E619971E0B8 /* Pods_AbdulNetworking.framework */; };
 		BEB03FE926A4392700E403EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB03FE826A4392700E403EA /* AppDelegate.swift */; };
 		BEB03FEB26A4392700E403EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB03FEA26A4392700E403EA /* SceneDelegate.swift */; };
 		BEB03FED26A4392700E403EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB03FEC26A4392700E403EA /* ViewController.swift */; };
 		BEB03FF026A4392700E403EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB03FEE26A4392700E403EA /* Main.storyboard */; };
 		BEB03FF226A4392B00E403EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEB03FF126A4392B00E403EA /* Assets.xcassets */; };
 		BEB03FF526A4392B00E403EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEB03FF326A4392B00E403EA /* LaunchScreen.storyboard */; };
+		BEB0400526A43A2F00E403EA /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0400426A43A2F00E403EA /* Network.swift */; };
+		BEB0400726A43A3E00E403EA /* NetworkSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0400626A43A3D00E403EA /* NetworkSupport.swift */; };
+		BEB0400C26A43CCD00E403EA /* JsonSerializing.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0400B26A43CCD00E403EA /* JsonSerializing.swift */; };
+		BEB0400E26A43D0A00E403EA /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0400D26A43D0A00E403EA /* Foundation.swift */; };
+		BEB0401026A43D9E00E403EA /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0400F26A43D9E00E403EA /* DataManager.swift */; };
+		BEB0401426A43DE000E403EA /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0401326A43DE000E403EA /* LoginRequest.swift */; };
+		BEB0401626A43E1300E403EA /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0401526A43E1300E403EA /* LoginResponse.swift */; };
+		BEB0401726A43F0F00E403EA /* UserAuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB0400826A43A5300E403EA /* UserAuthenticationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BEB03FE526A4392700E403EA /* AbdulNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AbdulNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A152D916172E88E5878FEE /* Pods-AbdulNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbdulNetworking.debug.xcconfig"; path = "Target Support Files/Pods-AbdulNetworking/Pods-AbdulNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		6177B5AB5BF84E619971E0B8 /* Pods_AbdulNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AbdulNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB03FE526A4392700E403EA /* AKNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AKNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEB03FE826A4392700E403EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEB03FEA26A4392700E403EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BEB03FEC26A4392700E403EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +35,15 @@
 		BEB03FF126A4392B00E403EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BEB03FF426A4392B00E403EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEB03FF626A4392B00E403EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEB0400426A43A2F00E403EA /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		BEB0400626A43A3D00E403EA /* NetworkSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkSupport.swift; sourceTree = "<group>"; };
+		BEB0400826A43A5300E403EA /* UserAuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuthenticationService.swift; sourceTree = "<group>"; };
+		BEB0400B26A43CCD00E403EA /* JsonSerializing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonSerializing.swift; sourceTree = "<group>"; };
+		BEB0400D26A43D0A00E403EA /* Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foundation.swift; sourceTree = "<group>"; };
+		BEB0400F26A43D9E00E403EA /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BEB0401326A43DE000E403EA /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		BEB0401526A43E1300E403EA /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		D1FEBE0508142EDC1F1CA35D /* Pods-AbdulNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AbdulNetworking.release.xcconfig"; path = "Target Support Files/Pods-AbdulNetworking/Pods-AbdulNetworking.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,60 +51,178 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				204F2BEF0083D5BF934B65A9 /* Pods_AbdulNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40F16D3F9F5B2A8D4CE110AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34A152D916172E88E5878FEE /* Pods-AbdulNetworking.debug.xcconfig */,
+				D1FEBE0508142EDC1F1CA35D /* Pods-AbdulNetworking.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A6D7DE0B7DF6318B7B73AF9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6177B5AB5BF84E619971E0B8 /* Pods_AbdulNetworking.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BEB03FDC26A4392600E403EA = {
 			isa = PBXGroup;
 			children = (
-				BEB03FE726A4392700E403EA /* AbdulNetworking */,
+				BEB03FE726A4392700E403EA /* AKNetworking */,
 				BEB03FE626A4392700E403EA /* Products */,
+				40F16D3F9F5B2A8D4CE110AE /* Pods */,
+				A6D7DE0B7DF6318B7B73AF9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		BEB03FE626A4392700E403EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BEB03FE526A4392700E403EA /* AbdulNetworking.app */,
+				BEB03FE526A4392700E403EA /* AKNetworking.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BEB03FE726A4392700E403EA /* AbdulNetworking */ = {
+		BEB03FE726A4392700E403EA /* AKNetworking */ = {
 			isa = PBXGroup;
 			children = (
 				BEB03FE826A4392700E403EA /* AppDelegate.swift */,
 				BEB03FEA26A4392700E403EA /* SceneDelegate.swift */,
 				BEB03FEC26A4392700E403EA /* ViewController.swift */,
-				BEB03FEE26A4392700E403EA /* Main.storyboard */,
+				BEB03FFC26A4398A00E403EA /* Views */,
+				BEB0400226A439D300E403EA /* Models */,
+				BEB03FFF26A439AF00E403EA /* ViewModels */,
+				BEB03FFE26A439A600E403EA /* Storyboards */,
+				BEB0400326A439DF00E403EA /* Helpers */,
+				BEB0400126A439C000E403EA /* DataManager */,
+				BEB0400026A439B800E403EA /* Extensions */,
+				BEB03FFD26A4399800E403EA /* Network */,
 				BEB03FF126A4392B00E403EA /* Assets.xcassets */,
-				BEB03FF326A4392B00E403EA /* LaunchScreen.storyboard */,
 				BEB03FF626A4392B00E403EA /* Info.plist */,
 			);
-			path = AbdulNetworking;
+			path = AKNetworking;
+			sourceTree = "<group>";
+		};
+		BEB03FFC26A4398A00E403EA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BEB03FFD26A4399800E403EA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0400426A43A2F00E403EA /* Network.swift */,
+				BEB0400626A43A3D00E403EA /* NetworkSupport.swift */,
+				BEB0400A26A43A5E00E403EA /* Services */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		BEB03FFE26A439A600E403EA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BEB03FEE26A4392700E403EA /* Main.storyboard */,
+				BEB03FF326A4392B00E403EA /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		BEB03FFF26A439AF00E403EA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		BEB0400026A439B800E403EA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0400D26A43D0A00E403EA /* Foundation.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		BEB0400126A439C000E403EA /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0400F26A43D9E00E403EA /* DataManager.swift */,
+			);
+			name = DataManager;
+			sourceTree = "<group>";
+		};
+		BEB0400226A439D300E403EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0401226A43DCF00E403EA /* Responses */,
+				BEB0401126A43DC900E403EA /* Requests */,
+				BEB0400B26A43CCD00E403EA /* JsonSerializing.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BEB0400326A439DF00E403EA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		BEB0400A26A43A5E00E403EA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0400826A43A5300E403EA /* UserAuthenticationService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		BEB0401126A43DC900E403EA /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0401326A43DE000E403EA /* LoginRequest.swift */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		BEB0401226A43DCF00E403EA /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				BEB0401526A43E1300E403EA /* LoginResponse.swift */,
+			);
+			name = Responses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BEB03FE426A4392700E403EA /* AbdulNetworking */ = {
+		BEB03FE426A4392700E403EA /* AKNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BEB03FF926A4392B00E403EA /* Build configuration list for PBXNativeTarget "AbdulNetworking" */;
+			buildConfigurationList = BEB03FF926A4392B00E403EA /* Build configuration list for PBXNativeTarget "AKNetworking" */;
 			buildPhases = (
+				DD737220FDA1050F424A99FE /* [CP] Check Pods Manifest.lock */,
 				BEB03FE126A4392700E403EA /* Sources */,
 				BEB03FE226A4392700E403EA /* Frameworks */,
 				BEB03FE326A4392700E403EA /* Resources */,
+				596C44CE3B1A0B9001514FC2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = AbdulNetworking;
+			name = AKNetworking;
 			productName = AbdulNetworking;
-			productReference = BEB03FE526A4392700E403EA /* AbdulNetworking.app */;
+			productReference = BEB03FE526A4392700E403EA /* AKNetworking.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +239,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BEB03FE026A4392700E403EA /* Build configuration list for PBXProject "AbdulNetworking" */;
+			buildConfigurationList = BEB03FE026A4392700E403EA /* Build configuration list for PBXProject "AKNetworking" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,7 +252,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BEB03FE426A4392700E403EA /* AbdulNetworking */,
+				BEB03FE426A4392700E403EA /* AKNetworking */,
 			);
 		};
 /* End PBXProject section */
@@ -132,13 +270,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		596C44CE3B1A0B9001514FC2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbdulNetworking/Pods-AbdulNetworking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AbdulNetworking/Pods-AbdulNetworking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AbdulNetworking/Pods-AbdulNetworking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD737220FDA1050F424A99FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AbdulNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BEB03FE126A4392700E403EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEB0401726A43F0F00E403EA /* UserAuthenticationService.swift in Sources */,
+				BEB0400726A43A3E00E403EA /* NetworkSupport.swift in Sources */,
 				BEB03FED26A4392700E403EA /* ViewController.swift in Sources */,
+				BEB0400E26A43D0A00E403EA /* Foundation.swift in Sources */,
+				BEB0401426A43DE000E403EA /* LoginRequest.swift in Sources */,
 				BEB03FE926A4392700E403EA /* AppDelegate.swift in Sources */,
+				BEB0400C26A43CCD00E403EA /* JsonSerializing.swift in Sources */,
+				BEB0400526A43A2F00E403EA /* Network.swift in Sources */,
+				BEB0401026A43D9E00E403EA /* DataManager.swift in Sources */,
+				BEB0401626A43E1300E403EA /* LoginResponse.swift in Sources */,
 				BEB03FEB26A4392700E403EA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +471,7 @@
 		};
 		BEB03FFA26A4392B00E403EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A152D916172E88E5878FEE /* Pods-AbdulNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +491,7 @@
 		};
 		BEB03FFB26A4392B00E403EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FEBE0508142EDC1F1CA35D /* Pods-AbdulNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +512,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BEB03FE026A4392700E403EA /* Build configuration list for PBXProject "AbdulNetworking" */ = {
+		BEB03FE026A4392700E403EA /* Build configuration list for PBXProject "AKNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEB03FF726A4392B00E403EA /* Debug */,
@@ -331,7 +521,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BEB03FF926A4392B00E403EA /* Build configuration list for PBXNativeTarget "AbdulNetworking" */ = {
+		BEB03FF926A4392B00E403EA /* Build configuration list for PBXNativeTarget "AKNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BEB03FFA26A4392B00E403EA /* Debug */,
