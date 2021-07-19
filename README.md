@@ -1,4 +1,4 @@
-# AKNetworking
+# AKNetworking Is A Template Project With Complete Flow Of Networking Calls and Errors handlers
 This project is to start a new project by using this template which can make your life easy!
 1- It has the ability to give you basic structure 
 2- One networking function will handle almost all type of networking methods
